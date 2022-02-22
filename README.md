@@ -1,4 +1,4 @@
-# Boot.Python
+# Bootcamp Python
 
-Práticas em Python3
-ex001.Pedido de Compra
+Curso COMPLETO com EXERCÍCIOS RESOLVIDOS e PROJETOS. Inclui: Estruturas de Controle, Funções, Classes, Jogos e CRUD.
+
