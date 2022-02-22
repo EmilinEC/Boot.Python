@@ -1,0 +1,37 @@
+cpf = input("Digite o CPF: ")
+nome = input("Digite o NOME: ")
+c1 = input("Digite o CÓDIGO: ")
+q1 = input("Digite o QUANTIDADE: ")
+v1 = input("Digite o VALOR: ")
+c2 = input("Digite o CÓDIGO: ")
+q2 = input("Digite o QUANTIDADE: ")
+v2 = input("Digite o VALOR: ")
+c3 = input("Digite o CÓDIGO: ")
+q3 = input("Digite o QUANTIDADE: ")
+v3 = input("Digite o VALOR: ")
+
+print("======================================================")
+print(" >>> DADOS DO PEDIDO <<<")
+print("==================================================")
+print("CPF informado: " + cpf)
+print("nome informado: " + nome)
+
+print(">>> ITEM 1 >>>")
+print("CÓDIGO informado: " + c1)
+print("QTDE informada: " + q1)
+print("VALOR informado: " + v1)
+
+print(">>> ITEM 2 >>>")
+print("CÓDIGO informado: " + c2)
+print("QTDE informada: " + q2)
+print("VALOR informado: " + v2)
+
+print(">>> ITEM 3 >>>")
+print("CÓDIGO informado: " + c3)
+print("QTDE informada: " + q3)
+print("VALOR informado: " + v3)
+
+total = (int(q1)*float(v1)) + (int(q2)*float(v2)) + (int(q3)*float(v3))
+
+print(">>> TOTAL DO PEDIDO >>>")
+print("TOTAL DO PEDIDO: " + str(total))
